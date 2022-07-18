@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:elevation="15dp"
+    app:cardCornerRadius="8dp">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_place_Image">
+
+            <ImageView
+
+                android:id="@+id/iv_place_Image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/image_backgroundstyle"
+                android:clipToOutline="true"
+                android:elevation="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_business" />
+
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_place_Image"
+                android:background="@drawable/backgroundstyle">
+
+                <TextView
+                    android:id="@+id/tv_Hotelname"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_place_Image"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Hotel name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/item_ratting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/iv_place_Image"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/backgroundstyle"
+                    android:backgroundTint="@color/black"
+                    android:padding="4dp"
+                    android:text="4.5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textFontWeight="1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll1"
+                android:background="@drawable/backgroundstyle"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_Hotellocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgroundstyle"
+                    android:drawableStart="@drawable/ic_location"
+                    android:padding="10dp"
+                    android:text="Hotel_location"
+                    android:singleLine="true"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_Hotelprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:background="@drawable/backgroundstyle"
+                    android:padding="10dp"
+                    android:text="Hotel_Price"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll2"
+                android:layout_below="@+id/ll"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/btn_pickdater_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/backgroundstyle"
+                    android:text="Start Date"/>
+
+                <TextView
+                    android:background="@drawable/backgroundstyle"
+                    android:id="@+id/btn_pickdater_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="End Date"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_Hoteldes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll2"
+                android:background="@drawable/backgroundstyle"
+                android:padding="10dp"
+                android:text="Description"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

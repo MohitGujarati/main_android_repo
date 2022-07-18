@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zomato_clone</string>
+
+    <string-array name="location_spinner">
+        <item>Spinner 1</item>
+        <item>Spinner 2</item>
+        <item>Spinner 3</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

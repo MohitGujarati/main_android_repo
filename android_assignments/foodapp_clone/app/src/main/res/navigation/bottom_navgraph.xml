@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navgraph"
+    app:startDestination="@id/home_Frag">
+
+    <fragment
+        android:id="@+id/home_Frag"
+        android:name="mohit.dev.zomato_clone.Home_Frag"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" />
+    <fragment
+        android:id="@+id/dining_Frag"
+        android:name="mohit.dev.zomato_clone.Dining_Frag"
+        android:label="fragment_dining_"
+        tools:layout="@layout/fragment_dining_" />
+    <fragment
+        android:id="@+id/wallet_Frag"
+        android:name="mohit.dev.zomato_clone.profile_Frag"
+        android:label="fragment_wallet_"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".View.Detail_Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:maxHeight="?attr/actionBarSize">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="?attr/actionBarSize">
+
+
+            <!-- ToolBar widget -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="?attr/actionBarSize"
+                android:theme="?attr/collapsingToolbarLayoutMediumSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="" />
+
+            <!-- ImageView beside title of ToolBar -->
+            <ImageView
+                android:id="@+id/Appbar_ic_back"
+                style="@style/Widget.Material3.Chip.Input.Icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:gravity="end"
+                android:maxHeight="?attr/actionBarSize"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/Appbar_ic_camera"
+                    style="@style/Widget.Material3.Chip.Input.Icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_camera" />
+
+                <ImageView
+                    android:id="@+id/Appbar_ic_heart"
+                    style="@style/Widget.Material3.Chip.Input.Icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_heart" />
+
+                <ImageView
+                    android:id="@+id/Appbar_ic_share"
+                    style="@style/Widget.Material3.Chip.Input.Icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_share" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Hotel name" />
+
+        <TextView
+            android:id="@+id/Deatil_HCategory"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:text="Hotel Category" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Deatil_HCategory"
+            android:layout_marginTop="2dp"
+            android:text="Hotel Location" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rattingcard"
+            android:layout_width="80dp"
+            android:layout_height="75dp"
+            android:layout_toRightOf="@+id/tv_name"
+            android:elevation="10dp"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_ratting"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:backgroundTint="#43A047"
+                    android:drawableEnd="@drawable/ic_star"
+                    android:padding="4dp"
+                    android:text="3.5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_review"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="25 \n Review"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            style="@style/CardView"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:elevation="10dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewxml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="20dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_hotelimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:clipToOutline="true"
+                    android:scaleType="fitXY"
+                    android:src="@color/teal_200" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/detail_Htime"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewxml"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_time"
+                android:drawableEnd="@drawable/ic_call"
+
+                android:drawablePadding="7dp"
+                android:text="opens at 3pm"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail_Htime"
+                android:layout_marginTop="10dp"
+
+                android:drawableStart="@drawable/ic_rupee"
+                android:drawablePadding="4dp"
+                android:text="Price"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/detail_Hlocation"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_price"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawableEnd="@drawable/ic_directions"
+                android:drawablePadding="4dp"
+                android:text="opens at 3pm"
+                android:textAlignment="textStart" />
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_menu"
+            android:layout_margin="2dp"
+            android:layout_below="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+

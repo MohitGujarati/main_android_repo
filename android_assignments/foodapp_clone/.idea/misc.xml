@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable-v24/high_rating_bg.xml" value="0.1" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable-v24/low_rating_bg.xml" value="0.1" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/background_comboimage.xml" value="0.1685" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/backgroundstyle.xml" value="0.1615" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.171" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/ic_location.xml" value="0.1475" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/ic_rupee.xml" value="0.1615" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/ic_star.xml" value="0.1475" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/ic_time.xml" value="0.1615" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/imageview_bg.xml" value="0.1785" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/product_image.xml" value="0.1" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/profilepic_bg.xml" value="0.1365" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/style_background.xml" value="0.1" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/drawable/vectorfood.xml" value="0.1785" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/activity_detail.xml" value="0.2" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/activity_main.xml" value="0.23055555555555557" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/activity_spalashcreen.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/category_list_items.xml" value="0.536" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/combo_list.xml" value="0.264" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/cus_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/dining_items.xml" value="0.176" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_dining_.xml" value="0.2564814814814815" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_home_.xml" value="0.176" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_place_details_.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_placedetails.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_popular_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/fragment_wallet_.xml" value="0.1675925925925926" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/layout_dining_hotel.xml" value="0.2564814814814815" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/layout_dining_placeitems.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/layout_dining_popularplacedetail.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/layout_home_categorylistitems.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/layout_resturant_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/layout/product_list.xml" value="0.27025641025641023" />
+        <entry key="..\:/All android 2022-2023/Zomato_clone/app/src/main/res/menu/bottom_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
