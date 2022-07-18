@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/home_nav_frag">
+
+    <fragment
+        android:id="@+id/home_nav_frag"
+        android:name="mohit.dev.navigation_compo.Home_nav_frag"
+        android:label="fragment_home_nav_frag"
+        tools:layout="@layout/fragment_home_nav_frag" />
+    <fragment
+        android:id="@+id/hotel_nav_frag"
+        android:name="mohit.dev.navigation_compo.navigation_compo2.view.Hotel_nav_frag"
+        android:label="fragment_hotel_nav_frag"
+        tools:layout="@layout/fragment_hotel_nav_frag" />
+    <fragment
+        android:id="@+id/settings_nav_frag"
+        android:name="mohit.dev.navigation_compo.settings_nav_frag"
+        android:label="fragment_settings_nav_frag"
+        tools:layout="@layout/fragment_settings_nav_frag" />
+</navigation>

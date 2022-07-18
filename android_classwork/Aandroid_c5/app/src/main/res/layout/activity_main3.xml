@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prac_3.MainActivity3">
+
+
+    <CheckBox
+        android:id="@+id/chk_android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        />
+    <CheckBox
+        android:id="@+id/kotlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin"
+        />
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/img"
+        android:layout_margin="2dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/flt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:backgroundTint="#88AAFF"
+        android:src="@drawable/ic_android" />
+
+    </FrameLayout>
+</LinearLayout >

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="8dp"
+          android:layout_gravity="center"
+          android:layout_margin="10dp">
+
+          <EditText
+              android:id="@+id/getbday"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:inputType="number"
+              android:hint="day"/>
+
+          <EditText
+              android:inputType="number"
+              android:id="@+id/getbmonth"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:hint="Month"/>
+
+          <EditText
+              android:inputType="number"
+              android:id="@+id/getbyear"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:hint="Year"/>
+
+      </LinearLayout>
+
+
+      <Button
+          android:id="@+id/btn_min"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Minimum date Today"/>
+
+      <Button
+          android:id="@+id/btn_max"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="maximum date Today"/>
+     -->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+   >
+
+
+    <EditText
+        android:id="@+id/userday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Bday"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/usermonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" BMonth"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+  <EditText
+        android:id="@+id/useryear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Byear"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_bithdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Birthday date ONLy" />
+
+    <Button
+        android:id="@+id/btn_Maxdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Min date today" />
+
+    <Button
+        android:id="@+id/btn_mindate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max date today"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/setdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Selected Birthday date"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

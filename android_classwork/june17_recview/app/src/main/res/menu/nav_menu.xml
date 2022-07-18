@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="nav_home_Frag"
+       android:id="@+id/nav_home_Frag" />
+    <item android:title="nav_profile_frag"
+        android:id="@+id/nav_profile_frag"/>
+    <item android:title="nav_setting_frag"
+        android:id="@+id/nav_setting_frag"/>
+</menu>

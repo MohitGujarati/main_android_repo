@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/drawable/ic_android.xml" value="0.148" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_act4.xml" value="0.2638888888888889" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main3.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main4.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main5.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_main6.xml" value="0.24947916666666667" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_p4.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/activity_sub_act5.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/cus_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/layout/layout_toast.xml" value="0.23148148148148148" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/menu/mymenu.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Aandroid_c5/app/src/main/res/menu/popup.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/drawable/ic_android_.xml" value="0.2205" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/activity_main.xml" value="0.27025641025641023" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/activity_main2.xml" value="0.27025641025641023" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_home_.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_nav_home_.xml" value="0.14444444444444443" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_nav_profile_frag.xml" value="0.14444444444444443" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_nav_setting_frag.xml" value="0.14444444444444443" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_profile_frg.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_set_frag.xml" value="0.2713541666666667" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/fragment_setting_frg.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/layout/row_data.xml" value="0.1" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/menu/bittom_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/june17_recview/app/src/main/res/menu/nav_menu.xml" value="0.2713541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
