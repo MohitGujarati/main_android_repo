@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignments/Sqliteprg/Sqlite_Project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ExpenseManager" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Sqlite_Project" vcs="Git" />
   </component>
