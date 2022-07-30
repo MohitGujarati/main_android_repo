@@ -5,10 +5,12 @@
     <mapping directory="$PROJECT_DIR$/android_assignments/Assignments/Sqlite_Project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_assignments/Assignments/Sqliteprg/Sqlite_Project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_assignments/Assignments/sqlite_prg1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android_assignments/Assignments/sqlite_prj1/sqlite_prg1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_assignments/ExpenseManager" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_assignments/Sqlite_Project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_classwork/27jun2022" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_classwork/Android_c1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android_classwork/Room_Database/Android_module-master" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_classwork/Sqlite" vcs="Git" />
   </component>
 </project>
